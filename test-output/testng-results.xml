@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-07-22T00:23:17 IST" name="Default suite" finished-at="2021-07-22T00:23:18 IST" duration-ms="1031">
+  <suite started-at="2021-07-23T01:25:57 IST" name="Default suite" finished-at="2021-07-23T01:25:59 IST" duration-ms="2085">
     <groups>
     </groups>
-    <test started-at="2021-07-22T00:23:17 IST" name="Default test" finished-at="2021-07-22T00:23:18 IST" duration-ms="1031">
-      <class name="SumValidation">
-        <test-method signature="SumOfCourses()[pri:0, instance:SumValidation@a3d8174]" started-at="2021-07-22T00:23:17 IST" name="SumOfCourses" finished-at="2021-07-22T00:23:18 IST" duration-ms="1005" status="PASS">
+    <test started-at="2021-07-23T01:25:57 IST" name="Default test" finished-at="2021-07-23T01:25:59 IST" duration-ms="2085">
+      <class name="files.DynamicJson">
+        <test-method signature="addBook()[pri:0, instance:files.DynamicJson@44821a96]" started-at="2021-07-23T01:25:57 IST" name="addBook" finished-at="2021-07-23T01:25:59 IST" duration-ms="2054" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- SumOfCourses -->
-      </class> <!-- SumValidation -->
+        </test-method> <!-- addBook -->
+      </class> <!-- files.DynamicJson -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
