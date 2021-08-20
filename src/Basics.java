@@ -21,7 +21,7 @@ public class Basics {
 
 		// given - all input details
 		// when - submit the API
-		// Then - validate the response
+		// Then - validate the response 
 
 		// Add place -> update place with new address -> Get place to validate if new
 		// address is present in response
