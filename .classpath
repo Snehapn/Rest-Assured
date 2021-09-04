@@ -18,5 +18,9 @@
 		</attributes>
 	</classpathentry>
 	<classpathentry kind="lib" path="C:/Users/HP/Downloads/testng-7.4.0 (2).jar"/>
+	<classpathentry kind="lib" path="C:/Users/HP/Downloads/gson-2.8.8.jar"/>
+	<classpathentry kind="lib" path="C:/Users/HP/Downloads/jackson-core-2.12.4.jar"/>
+	<classpathentry kind="lib" path="C:/Users/HP/Downloads/jackson-annotations-2.12.4.jar"/>
+	<classpathentry kind="lib" path="C:/Users/HP/Downloads/jackson-databind-2.12.4 (1).jar"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>
