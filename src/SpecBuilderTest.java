@@ -4,6 +4,7 @@ import io.restassured.builder.ResponseSpecBuilder;
 import io.restassured.http.ContentType;
 import io.restassured.response.Response;
 import io.restassured.specification.RequestSpecification;
+import io.restassured.specification.ResponseSpecification;
 import pojo.AddPlace;
 import pojo.Location;
 
@@ -41,8 +42,9 @@ public class SpecBuilderTest {
 	RequestSpecification req =	new RequestSpecBuilder().setBaseUri("https://rahulshettyacademy.com")
 		.addQueryParam("key", "qaclick123").setContentType(ContentType.JSON).build();
 
-	ResponseSpecification resspec = new ResponseSpecBuilder.expectStatusCode(200).
+	ResponseSpecification resspec = new ResponseSpecBuilder().expectStatusCode(200).
 			expectContentType(ContentType.JSON).build();
+
 		
 	RequestSpecification res =	given().spec(req)
 		.body(p);
